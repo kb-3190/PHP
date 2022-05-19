@@ -1,10 +1,8 @@
 <?php
 require_once "data.php";
 
-class main {
-    public function __construct() {
-
-    }
+class Main extends Menu{
+    $menu1 = new Menu();
 }
 
 ?>

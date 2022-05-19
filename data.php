@@ -1,5 +1,5 @@
 <?php
-
+/*
 $menu1 = [
     name => "豚骨ラーメン",
     price => 750,
@@ -16,5 +16,13 @@ $menu4 = [
     name => "塩ラーメン",
     price => 800,
 ];
+*/
+
+class Menu {
+    function __construct($name, $price) {
+        $this->name = $name;
+        $this->price = $price;
+    }
+}
 
 ?>
