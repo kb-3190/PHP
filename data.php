@@ -1,28 +1,22 @@
 <?php
-/*
+
 $menu1 = [
-    name => "豚骨ラーメン",
-    price => 750,
+        'name' => '豚骨ラーメン',
+        'price' => 750,
 ];
 $menu2 = [
-    name => "醤油ラーメン",
-    price => 800,
+        'name' => '醤油ラーメン',
+        'price' => 800,
 ];
 $menu3 = [
-    name => "味噌ラーメン",
-    price => 850,
+        'name' => '味噌ラーメン',
+        'price' => 850,
 ];
 $menu4 = [
-    name => "塩ラーメン",
-    price => 800,
+        'name' => '塩ラーメン',
+        'price' => 800,
 ];
-*/
 
-class Menu {
-    function __construct($name, $price) {
-        $this->name = $name;
-        $this->price = $price;
-    }
-}
+
 
 ?>
